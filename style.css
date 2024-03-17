@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chicle", serif;
+}
+body{
+    /* background-color: aqua; */
+    transition: 0.7s;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30rem;
+    /* height: 15rem; */
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 40px;
+    background-color: bisque;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: beige;
+    border-radius: 10px;
+    display: block;
+    font-size: 35px;
+}
